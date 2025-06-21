@@ -1,4 +1,4 @@
-1. Write a program to accept the n value and display the below pattern
+1.
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -19,7 +19,7 @@ int n;
 }
 
 
-2.Write a program to accept the n value and display the below pattern
+2.
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -38,7 +38,7 @@ int n,m;
 }
 
 
-3.Write a program to accept the n value and display the below pattern
+3.
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -57,7 +57,7 @@ int n;
 }
 
 
-4.Write a program to accept the n value and display the below pattern
+4.
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -76,7 +76,7 @@ int n;
 }
 
 
-5.Write a program to accept the n value and display the below pattern
+5.
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -93,4 +93,360 @@ int n;
     }
     return 0;
 }
+
+
+6.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    
+    scanf("%d",&n);
+    for (int i=1;i<=n;i++)
+    {
+        for (int j=i;j>=1;j--)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+7.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=n;i>=1;i--)
+    {
+        for (int j=i;j>=1;j--)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+8.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+int n;
+    scanf("%d",&n);
+    for (int i=n;i>=1;i--)
+    {
+        for (int j=1;j<=i;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+9.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for (int i=1;i<=n;i++)
+    {
+        for(int j=n;j>=n-i+1;j--)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    
+    
+    return 0;
+}
+
+
+10.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=n;i>=1;i--)
+    {
+        for(int j=i;j<=n;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+11.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=n;i>=1;i--)
+    {
+        for(int j=n;j>=n-i+1;j--)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+12.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=i;j<=n;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+13.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            printf("%d",i);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+14.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=n;j>=i;j--)
+        {
+            printf("%d",i);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+15.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(int i=n-1;i>=1;i--)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+16.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    for(int i=n-1;i>=1;i--)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            printf("%d",j);
+            
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+17.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=i;j>=1;j--)
+        {
+            printf("%d",j);
+        }
+    
+        printf("\n");
+    }
+        for(int i=n-1;i>=1;i--)
+        {
+            for(int j=i;j>=1;j--)
+            {
+                printf("%d",j);
+            }
+            printf("\n");
+        }
+    
+    
+    return 0;
+}
+
+
+18.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for (int i=n;i>=1;i--)
+    {
+        for(int j=i;j<=n;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    for (int i=2;i<=n;i++)
+    {
+        for(int j=i;j<=n;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+19.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            printf("%d",n);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+20.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for (int j=1;j<=(2*i-1);j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+
 

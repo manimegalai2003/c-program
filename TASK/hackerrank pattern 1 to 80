@@ -448,5 +448,248 @@ int n;
 }
 
 
+21.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        for(char ch='A';ch<='A'+i;ch++)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+22.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        for (char ch='a'+i;ch>='a';ch--){
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+23.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for (int i=0;i<n;i++)
+         {
+             for (char ch='A'+n-i-1;ch>='A';ch--)
+             {
+                 printf("%c",ch);
+             }
+             printf("\n");
+         }
+    return 0;
+}
+
+
+24.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=0;i<=n;i++)
+    {
+        for (char ch='A'+i;ch<'A'+n;ch++)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+25.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+int n;
+    scanf("%d",&n);
+    for(int i=0;i<=n;i++)
+    {
+        for (char ch='A'+n-1;ch>='A'+i;ch--)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+26.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        char ch='a'+i;
+        for(int j=0;j<=i;j++)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+27.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        for (char ch='A';ch<'A'+i;ch++)
+        {
+            printf("%c",ch);
+            
+        }
+        printf("\n");
+    }
+    for (int i=n-1;i>=1;i--)
+    {
+        for(char ch='A';ch<'A'+i;ch++)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+28.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        for (int j=0;j<=i;j++)
+        {
+            char upper='A'+j;
+            char lower='a'+j;
+            printf("%c%c",upper,lower);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+29.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    char ch='A';
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=0;j<i;j++)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+        ch++;
+    }
+    for (int i=n-1;i>=1;i--)
+    {
+        for (int j=0;j<i;j++)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+        ch++;
+    }
+    return 0;
+}
+
+
+30.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int n;
+    scanf("%d",&n);
+    char start='A'+n-1;
+    for(int i=1;i<=n;i++)
+    {
+        for (char ch=start;ch>=start-i+1;ch--)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    for(int i=n-1;i>=1;i--)
+    {
+        for(char ch=start;ch>=start-i+1;ch--){
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+
+
 
 
